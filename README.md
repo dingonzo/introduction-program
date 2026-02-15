@@ -1,5 +1,6 @@
-![Build Status](https://github.com)
 # Introduction-program.py
+![Build Status](https://github.com)
+
 This Python script is an interactive introductory program that demonstrates basic user input, conditional logic, and random number generation. Great for a beginner programmer to reference!
 
 # The Welcome & Setup
