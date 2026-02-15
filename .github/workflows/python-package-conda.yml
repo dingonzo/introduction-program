@@ -10,6 +10,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+     # ADD THIS STEP HERE
+    - name: Create environment.yml
+      run: |
+        echo "name: base" > environment.yml
+        echo "channels:" >> environment.yml
+        echo "  - defaults" >> environment.yml
+        echo "dependencies:" >> environment.yml
+        echo "  - python=3.10" >> environment.yml
+        echo "  - pytest" >> environment.yml
+        echo "  - flake8" >> environment.ymls
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
